@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79837450198AAFB50063EDC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7983744F198AAFB50063EDC0 /* Foundation.framework */; };
+		79837452198AAFB50063EDC0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79837451198AAFB50063EDC0 /* CoreGraphics.framework */; };
+		79837454198AAFB50063EDC0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79837453198AAFB50063EDC0 /* UIKit.framework */; };
+		7983745A198AAFB50063EDC0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79837458198AAFB50063EDC0 /* InfoPlist.strings */; };
+		7983745C198AAFB50063EDC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7983745B198AAFB50063EDC0 /* main.m */; };
+		79837463198AAFB50063EDC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79837461198AAFB50063EDC0 /* Main.storyboard */; };
+		79837468198AAFB50063EDC0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79837467198AAFB50063EDC0 /* Images.xcassets */; };
+		7983746F198AAFB50063EDC0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7983746E198AAFB50063EDC0 /* XCTest.framework */; };
+		79837470198AAFB50063EDC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7983744F198AAFB50063EDC0 /* Foundation.framework */; };
+		79837471198AAFB50063EDC0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79837453198AAFB50063EDC0 /* UIKit.framework */; };
+		79837479198AAFB50063EDC0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79837477198AAFB50063EDC0 /* InfoPlist.strings */; };
+		7983747B198AAFB50063EDC0 /* TrueCarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7983747A198AAFB50063EDC0 /* TrueCarTests.m */; };
+		79837487198AAFD60063EDC0 /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 79837486198AAFD60063EDC0 /* CHCSVParser.m */; };
+		7983748D198AB0AC0063EDC0 /* TCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7983748C198AB0AC0063EDC0 /* TCAppDelegate.m */; };
+		79837490198AB0E20063EDC0 /* TCCraigslist.m in Sources */ = {isa = PBXBuildFile; fileRef = 7983748F198AB0E20063EDC0 /* TCCraigslist.m */; };
+		79837493198ABD950063EDC0 /* TCCraigslistItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 79837492198ABD950063EDC0 /* TCCraigslistItem.m */; };
+		79837499198AC0810063EDC0 /* MFStringCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 79837495198AC0810063EDC0 /* MFStringCategory.m */; };
+		7983749A198AC0810063EDC0 /* NSScanner+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 79837498198AC0810063EDC0 /* NSScanner+Additions.m */; };
+		7983749E198AC7FD0063EDC0 /* NSError+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7983749D198AC7FD0063EDC0 /* NSError+Additions.m */; };
+		798374A1198B08760063EDC0 /* TCCars.m in Sources */ = {isa = PBXBuildFile; fileRef = 798374A0198B08760063EDC0 /* TCCars.m */; };
+		798374A6198B24410063EDC0 /* Mobile Challenge Assignment Excel.csv in Resources */ = {isa = PBXBuildFile; fileRef = 798374A5198B24410063EDC0 /* Mobile Challenge Assignment Excel.csv */; };
+		798374A9198D62260063EDC0 /* TCCarsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 798374A8198D62260063EDC0 /* TCCarsTableViewController.m */; };
+		798374AC198D69CD0063EDC0 /* TCMakeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 798374AB198D69CD0063EDC0 /* TCMakeTableViewController.m */; };
+		798374AF198D88630063EDC0 /* TCCraigslistTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 798374AE198D88630063EDC0 /* TCCraigslistTableViewController.m */; };
+		798374B2198D8A820063EDC0 /* TCCraigslistTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 798374B1198D8A820063EDC0 /* TCCraigslistTableViewCell.m */; };
+		798374B5198D92470063EDC0 /* TCCraigslistItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 798374B4198D92470063EDC0 /* TCCraigslistItemViewController.m */; };
+		798374B8198D98C50063EDC0 /* UIAlertView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 798374B7198D98C50063EDC0 /* UIAlertView+Additions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79837472198AAFB50063EDC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79837444198AAFB50063EDC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7983744B198AAFB50063EDC0;
+			remoteInfo = TrueCar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7983744C198AAFB50063EDC0 /* TrueCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrueCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7983744F198AAFB50063EDC0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		79837451198AAFB50063EDC0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		79837453198AAFB50063EDC0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		79837457198AAFB50063EDC0 /* TrueCar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrueCar-Info.plist"; sourceTree = "<group>"; };
+		79837459198AAFB50063EDC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7983745B198AAFB50063EDC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7983745D198AAFB50063EDC0 /* TrueCar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TrueCar-Prefix.pch"; sourceTree = "<group>"; };
+		79837462198AAFB50063EDC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79837467198AAFB50063EDC0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7983746D198AAFB50063EDC0 /* TrueCarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrueCarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7983746E198AAFB50063EDC0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		79837476198AAFB50063EDC0 /* TrueCarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrueCarTests-Info.plist"; sourceTree = "<group>"; };
+		79837478198AAFB50063EDC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7983747A198AAFB50063EDC0 /* TrueCarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrueCarTests.m; sourceTree = "<group>"; };
+		79837485198AAFD60063EDC0 /* CHCSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHCSVParser.h; sourceTree = "<group>"; };
+		79837486198AAFD60063EDC0 /* CHCSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHCSVParser.m; sourceTree = "<group>"; };
+		7983748B198AB0AC0063EDC0 /* TCAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCAppDelegate.h; sourceTree = "<group>"; };
+		7983748C198AB0AC0063EDC0 /* TCAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCAppDelegate.m; sourceTree = "<group>"; };
+		7983748E198AB0E20063EDC0 /* TCCraigslist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCCraigslist.h; sourceTree = "<group>"; };
+		7983748F198AB0E20063EDC0 /* TCCraigslist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCCraigslist.m; sourceTree = "<group>"; };
+		79837491198ABD950063EDC0 /* TCCraigslistItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCCraigslistItem.h; sourceTree = "<group>"; };
+		79837492198ABD950063EDC0 /* TCCraigslistItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCCraigslistItem.m; sourceTree = "<group>"; };
+		79837495198AC0810063EDC0 /* MFStringCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFStringCategory.m; sourceTree = "<group>"; };
+		79837496198AC0810063EDC0 /* MFStringCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFStringCategory.h; sourceTree = "<group>"; };
+		79837497198AC0810063EDC0 /* NSScanner+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSScanner+Additions.h"; sourceTree = "<group>"; };
+		79837498198AC0810063EDC0 /* NSScanner+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSScanner+Additions.m"; sourceTree = "<group>"; };
+		7983749B198AC08B0063EDC0 /* insist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = insist.h; sourceTree = "<group>"; };
+		7983749C198AC7FD0063EDC0 /* NSError+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+Additions.h"; sourceTree = "<group>"; };
+		7983749D198AC7FD0063EDC0 /* NSError+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+Additions.m"; sourceTree = "<group>"; };
+		7983749F198B08760063EDC0 /* TCCars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCCars.h; sourceTree = "<group>"; };
+		798374A0198B08760063EDC0 /* TCCars.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCCars.m; sourceTree = "<group>"; };
+		798374A5198B24410063EDC0 /* Mobile Challenge Assignment Excel.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Mobile Challenge Assignment Excel.csv"; sourceTree = "<group>"; };
+		798374A7198D62260063EDC0 /* TCCarsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCCarsTableViewController.h; sourceTree = "<group>"; };
+		798374A8198D62260063EDC0 /* TCCarsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCCarsTableViewController.m; sourceTree = "<group>"; };
+		798374AA198D69CD0063EDC0 /* TCMakeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCMakeTableViewController.h; sourceTree = "<group>"; };
+		798374AB198D69CD0063EDC0 /* TCMakeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCMakeTableViewController.m; sourceTree = "<group>"; };
+		798374AD198D88630063EDC0 /* TCCraigslistTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCCraigslistTableViewController.h; sourceTree = "<group>"; };
+		798374AE198D88630063EDC0 /* TCCraigslistTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCCraigslistTableViewController.m; sourceTree = "<group>"; };
+		798374B0198D8A820063EDC0 /* TCCraigslistTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCCraigslistTableViewCell.h; sourceTree = "<group>"; };
+		798374B1198D8A820063EDC0 /* TCCraigslistTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCCraigslistTableViewCell.m; sourceTree = "<group>"; };
+		798374B3198D92470063EDC0 /* TCCraigslistItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCCraigslistItemViewController.h; sourceTree = "<group>"; };
+		798374B4198D92470063EDC0 /* TCCraigslistItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCCraigslistItemViewController.m; sourceTree = "<group>"; };
+		798374B6198D98C50063EDC0 /* UIAlertView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Additions.h"; sourceTree = "<group>"; };
+		798374B7198D98C50063EDC0 /* UIAlertView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Additions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79837449198AAFB50063EDC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79837452198AAFB50063EDC0 /* CoreGraphics.framework in Frameworks */,
+				79837454198AAFB50063EDC0 /* UIKit.framework in Frameworks */,
+				79837450198AAFB50063EDC0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7983746A198AAFB50063EDC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7983746F198AAFB50063EDC0 /* XCTest.framework in Frameworks */,
+				79837471198AAFB50063EDC0 /* UIKit.framework in Frameworks */,
+				79837470198AAFB50063EDC0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79837443198AAFB50063EDC0 = {
+			isa = PBXGroup;
+			children = (
+				79837494198AC02C0063EDC0 /* Library */,
+				7983748A198AB03D0063EDC0 /* View */,
+				79837488198AB0280063EDC0 /* Model */,
+				79837484198AAFD60063EDC0 /* CHCSVParser */,
+				79837455198AAFB50063EDC0 /* TrueCar */,
+				79837474198AAFB50063EDC0 /* TrueCarTests */,
+				7983744E198AAFB50063EDC0 /* Frameworks */,
+				7983744D198AAFB50063EDC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7983744D198AAFB50063EDC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7983744C198AAFB50063EDC0 /* TrueCar.app */,
+				7983746D198AAFB50063EDC0 /* TrueCarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7983744E198AAFB50063EDC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7983744F198AAFB50063EDC0 /* Foundation.framework */,
+				79837451198AAFB50063EDC0 /* CoreGraphics.framework */,
+				79837453198AAFB50063EDC0 /* UIKit.framework */,
+				7983746E198AAFB50063EDC0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79837455198AAFB50063EDC0 /* TrueCar */ = {
+			isa = PBXGroup;
+			children = (
+				79837467198AAFB50063EDC0 /* Images.xcassets */,
+				79837456198AAFB50063EDC0 /* Supporting Files */,
+			);
+			path = TrueCar;
+			sourceTree = "<group>";
+		};
+		79837456198AAFB50063EDC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				798374A5198B24410063EDC0 /* Mobile Challenge Assignment Excel.csv */,
+				79837457198AAFB50063EDC0 /* TrueCar-Info.plist */,
+				79837458198AAFB50063EDC0 /* InfoPlist.strings */,
+				7983745B198AAFB50063EDC0 /* main.m */,
+				7983745D198AAFB50063EDC0 /* TrueCar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79837474198AAFB50063EDC0 /* TrueCarTests */ = {
+			isa = PBXGroup;
+			children = (
+				7983747A198AAFB50063EDC0 /* TrueCarTests.m */,
+				79837475198AAFB50063EDC0 /* Supporting Files */,
+			);
+			path = TrueCarTests;
+			sourceTree = "<group>";
+		};
+		79837475198AAFB50063EDC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79837476198AAFB50063EDC0 /* TrueCarTests-Info.plist */,
+				79837477198AAFB50063EDC0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79837484198AAFD60063EDC0 /* CHCSVParser */ = {
+			isa = PBXGroup;
+			children = (
+				79837485198AAFD60063EDC0 /* CHCSVParser.h */,
+				79837486198AAFD60063EDC0 /* CHCSVParser.m */,
+			);
+			path = CHCSVParser;
+			sourceTree = "<group>";
+		};
+		79837488198AB0280063EDC0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7983748B198AB0AC0063EDC0 /* TCAppDelegate.h */,
+				7983748C198AB0AC0063EDC0 /* TCAppDelegate.m */,
+				79837491198ABD950063EDC0 /* TCCraigslistItem.h */,
+				79837492198ABD950063EDC0 /* TCCraigslistItem.m */,
+				7983748E198AB0E20063EDC0 /* TCCraigslist.h */,
+				7983748F198AB0E20063EDC0 /* TCCraigslist.m */,
+				7983749F198B08760063EDC0 /* TCCars.h */,
+				798374A0198B08760063EDC0 /* TCCars.m */,
+			);
+			path = Model;
+			sourceTree = SOURCE_ROOT;
+		};
+		7983748A198AB03D0063EDC0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				79837461198AAFB50063EDC0 /* Main.storyboard */,
+				798374B3198D92470063EDC0 /* TCCraigslistItemViewController.h */,
+				798374B4198D92470063EDC0 /* TCCraigslistItemViewController.m */,
+				798374B0198D8A820063EDC0 /* TCCraigslistTableViewCell.h */,
+				798374B1198D8A820063EDC0 /* TCCraigslistTableViewCell.m */,
+				798374AD198D88630063EDC0 /* TCCraigslistTableViewController.h */,
+				798374AE198D88630063EDC0 /* TCCraigslistTableViewController.m */,
+				798374AA198D69CD0063EDC0 /* TCMakeTableViewController.h */,
+				798374AB198D69CD0063EDC0 /* TCMakeTableViewController.m */,
+				798374A7198D62260063EDC0 /* TCCarsTableViewController.h */,
+				798374A8198D62260063EDC0 /* TCCarsTableViewController.m */,
+			);
+			path = View;
+			sourceTree = SOURCE_ROOT;
+		};
+		79837494198AC02C0063EDC0 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				7983749B198AC08B0063EDC0 /* insist.h */,
+				79837495198AC0810063EDC0 /* MFStringCategory.m */,
+				79837496198AC0810063EDC0 /* MFStringCategory.h */,
+				79837497198AC0810063EDC0 /* NSScanner+Additions.h */,
+				79837498198AC0810063EDC0 /* NSScanner+Additions.m */,
+				7983749C198AC7FD0063EDC0 /* NSError+Additions.h */,
+				7983749D198AC7FD0063EDC0 /* NSError+Additions.m */,
+				798374B6198D98C50063EDC0 /* UIAlertView+Additions.h */,
+				798374B7198D98C50063EDC0 /* UIAlertView+Additions.m */,
+			);
+			path = Library;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7983744B198AAFB50063EDC0 /* TrueCar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7983747E198AAFB50063EDC0 /* Build configuration list for PBXNativeTarget "TrueCar" */;
+			buildPhases = (
+				79837448198AAFB50063EDC0 /* Sources */,
+				79837449198AAFB50063EDC0 /* Frameworks */,
+				7983744A198AAFB50063EDC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrueCar;
+			productName = TrueCar;
+			productReference = 7983744C198AAFB50063EDC0 /* TrueCar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7983746C198AAFB50063EDC0 /* TrueCarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79837481198AAFB50063EDC0 /* Build configuration list for PBXNativeTarget "TrueCarTests" */;
+			buildPhases = (
+				79837469198AAFB50063EDC0 /* Sources */,
+				7983746A198AAFB50063EDC0 /* Frameworks */,
+				7983746B198AAFB50063EDC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79837473198AAFB50063EDC0 /* PBXTargetDependency */,
+			);
+			name = TrueCarTests;
+			productName = TrueCarTests;
+			productReference = 7983746D198AAFB50063EDC0 /* TrueCarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79837444198AAFB50063EDC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "David Finucane";
+				TargetAttributes = {
+					7983746C198AAFB50063EDC0 = {
+						TestTargetID = 7983744B198AAFB50063EDC0;
+					};
+				};
+			};
+			buildConfigurationList = 79837447198AAFB50063EDC0 /* Build configuration list for PBXProject "TrueCar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79837443198AAFB50063EDC0;
+			productRefGroup = 7983744D198AAFB50063EDC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7983744B198AAFB50063EDC0 /* TrueCar */,
+				7983746C198AAFB50063EDC0 /* TrueCarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7983744A198AAFB50063EDC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798374A6198B24410063EDC0 /* Mobile Challenge Assignment Excel.csv in Resources */,
+				79837468198AAFB50063EDC0 /* Images.xcassets in Resources */,
+				7983745A198AAFB50063EDC0 /* InfoPlist.strings in Resources */,
+				79837463198AAFB50063EDC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7983746B198AAFB50063EDC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79837479198AAFB50063EDC0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79837448198AAFB50063EDC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798374B8198D98C50063EDC0 /* UIAlertView+Additions.m in Sources */,
+				79837493198ABD950063EDC0 /* TCCraigslistItem.m in Sources */,
+				798374A9198D62260063EDC0 /* TCCarsTableViewController.m in Sources */,
+				7983749A198AC0810063EDC0 /* NSScanner+Additions.m in Sources */,
+				79837487198AAFD60063EDC0 /* CHCSVParser.m in Sources */,
+				798374AC198D69CD0063EDC0 /* TCMakeTableViewController.m in Sources */,
+				7983748D198AB0AC0063EDC0 /* TCAppDelegate.m in Sources */,
+				79837499198AC0810063EDC0 /* MFStringCategory.m in Sources */,
+				798374A1198B08760063EDC0 /* TCCars.m in Sources */,
+				798374B5198D92470063EDC0 /* TCCraigslistItemViewController.m in Sources */,
+				7983749E198AC7FD0063EDC0 /* NSError+Additions.m in Sources */,
+				798374AF198D88630063EDC0 /* TCCraigslistTableViewController.m in Sources */,
+				7983745C198AAFB50063EDC0 /* main.m in Sources */,
+				798374B2198D8A820063EDC0 /* TCCraigslistTableViewCell.m in Sources */,
+				79837490198AB0E20063EDC0 /* TCCraigslist.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79837469198AAFB50063EDC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7983747B198AAFB50063EDC0 /* TrueCarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79837473198AAFB50063EDC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7983744B198AAFB50063EDC0 /* TrueCar */;
+			targetProxy = 79837472198AAFB50063EDC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79837458198AAFB50063EDC0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79837459198AAFB50063EDC0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		79837461198AAFB50063EDC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79837462198AAFB50063EDC0 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ../TrueCar;
+			sourceTree = "<group>";
+		};
+		79837477198AAFB50063EDC0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79837478198AAFB50063EDC0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7983747C198AAFB50063EDC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7983747D198AAFB50063EDC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7983747F198AAFB50063EDC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrueCar/TrueCar-Prefix.pch";
+				INFOPLIST_FILE = "TrueCar/TrueCar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		79837480198AAFB50063EDC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrueCar/TrueCar-Prefix.pch";
+				INFOPLIST_FILE = "TrueCar/TrueCar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		79837482198AAFB50063EDC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TrueCar.app/TrueCar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrueCar/TrueCar-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TrueCarTests/TrueCarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		79837483198AAFB50063EDC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TrueCar.app/TrueCar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrueCar/TrueCar-Prefix.pch";
+				INFOPLIST_FILE = "TrueCarTests/TrueCarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79837447198AAFB50063EDC0 /* Build configuration list for PBXProject "TrueCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7983747C198AAFB50063EDC0 /* Debug */,
+				7983747D198AAFB50063EDC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7983747E198AAFB50063EDC0 /* Build configuration list for PBXNativeTarget "TrueCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7983747F198AAFB50063EDC0 /* Debug */,
+				79837480198AAFB50063EDC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79837481198AAFB50063EDC0 /* Build configuration list for PBXNativeTarget "TrueCarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79837482198AAFB50063EDC0 /* Debug */,
+				79837483198AAFB50063EDC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79837444198AAFB50063EDC0 /* Project object */;
+}
